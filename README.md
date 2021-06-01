@@ -6,18 +6,15 @@ The [response](http://www.mocky.io/v2/5c51b9dd3400003252129fb5) for getting the 
 - ```sourceDataUrl``` - link to get source data
 - ```tokenDataUrl``` - link for teaching security tokens
 <br/>
-<br/>
 
 The format of the data in the response to the URL from the field sourceDataUrl:
 - ```urlType``` - type of link to the video stream. Possible values are "LIFE" or "ARCHIVE"
 - ```videoUrl``` - link to the video stream
 <br/>
-<br/>
 
 Data format in the response to URL from the tokenDataUrl field:
 - ```value``` - security token
 - ```TTL``` - token lifetime
-<br/>
 <br/>
 
 <details>
@@ -57,3 +54,11 @@ Data format in the response to URL from the tokenDataUrl field:
 
 ```
 </details>
+<br/>
+
+Project tools:
+- Spring Boot
+- Hibernate
+- PostgreSQL
+- JUnit
+- Mocito
